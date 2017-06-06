@@ -1,0 +1,146 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.auribises.MyProject.AttendenceFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Mark Student Attendence "
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22dp"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Enter Name:"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/name"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="150dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/txtrollno"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Enter Rollno:"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/rollno"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/txttimeA"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Time:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"/>
+
+
+        <EditText
+            android:id="@+id/timeA"
+            android:inputType="time"
+            android:focusableInTouchMode="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/txtdateA"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Date:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/dateA"
+            android:inputType="date"
+            android:focusableInTouchMode="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/mark"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Mark"
+        android:textSize="15dp"
+        android:onClick="OnClickAdmin"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
+    </FrameLayout>

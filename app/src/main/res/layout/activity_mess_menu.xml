@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.auribises.MyProject.Activity.MessMenuActivity"
+    android:padding="20dp"
+    android:background="@drawable/wallpaper4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text=" "
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Breakfast"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="  Lunch"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text=" Dinner"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Monday"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Potato Paratha/Butter"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="BlackChanna+Rice+Dahi+Roti"
+                android:textSize="12dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="MatarPaneer+Banana"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Tuesday"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="CheeseParatha/Butter"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Rajmah+Rice+Dhai+Roti"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="WhiteChanna+Dahi+Roti"
+                android:textSize="12dp"
+                android:textColor="@color/black"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Wednesday"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Cheese   Sandwich/Milk"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="RongiDall+Jeera Rice"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Dall+Roti+GulabJammun"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Thrusday"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="BreadPakora/Tea"
+                android:textSize="12dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Pullaw+ChannaDall+Roti"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Mashroom+  Roti+Custard"
+                android:textSize="12dp"
+                android:textColor="@color/black"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Friday"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Aloo Puri     +Tea"
+                android:textSize="12dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Curry + Rice + Roti"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Petha veg+    Roti + Kheer"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Saturday"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Grilled Sandwich/Milk"
+                android:textSize="12dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Puri with  White Channa"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Arhar Daal+    Roti"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Sunday"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Onion Paratha/Curd"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Mix Veg.+Roti+Curd "
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="Channa    Paneer+Roti"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+        </TableRow>
+    </TableLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

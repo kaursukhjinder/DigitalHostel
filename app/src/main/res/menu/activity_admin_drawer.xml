@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/LeavePermission"
+            android:icon="@drawable/appointment"
+            android:title="Leave Permission" />
+        <item
+            android:id="@+id/Entry"
+            android:icon="@drawable/hostelentry"
+            android:title="Hostel Entry" />
+        <item
+            android:id="@+id/MessEntry"
+            android:icon="@drawable/mess"
+            android:title="Mess Entry" />
+        <item
+            android:id="@+id/Admincomplaint"
+            android:icon="@drawable/hostelentry"
+            android:title="Hostel Complaint" />
+        <item
+            android:id="@+id/HostelLeave"
+            android:icon="@drawable/hostelentry"
+            android:title="Hostel Leave Entry" />
+        <item
+            android:id="@+id/MessDue"
+            android:icon="@drawable/textdocument"
+            android:title="Mess Due" />
+        <item
+            android:id="@+id/ChangePass"
+            android:icon="@drawable/updateprofile"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+    </group>
+
+</menu>
